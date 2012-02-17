@@ -1,6 +1,6 @@
 === Tagged User Notification ===
-Contributors: jstnlngls (this should be a list of wordpress.org userid's)
-Tags: comments, tagging, user notification, @replies
+Contributors: jstnlngls
+Tags: comments, tagging, user notification, notification, replies, multi-author
 Requires at least: 2.0.2
 Tested up to: 3.3.1. 
 Stable tag: 1

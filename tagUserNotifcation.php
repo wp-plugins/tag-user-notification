@@ -4,7 +4,7 @@
 Plugin Name: Tagged User Notification
 Plugin URI: http://www.brokencitylab.org
 Description: Send a notification to user tagged in a comment
-Version: 0.1
+Version: 0.2
 Author: Justin Langlois, based on code from Fabio Trezzi's Notify on Comment plugin
 Author URI: 
 */
@@ -89,7 +89,7 @@ function notifyOnUserTag_send($commentID){
 	
 	
 	// If not setted load the default from file
-	if($template ) $template = file_get_contents(dirname(__FILE__) . '/defaultTemplate.php');
+	$template = file_get_contents(dirname(__FILE__) . '/defaultTemplate.php');
 
 	// Replace all the constant with the rights values
 	$template = str_replace("{postID}", $post->ID, $template);

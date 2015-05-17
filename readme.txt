@@ -2,8 +2,8 @@
 Contributors: jstnlngls
 Tags: comments, tagging, user notification, notification, replies, multi-author
 Requires at least: 2.0.2
-Tested up to: 3.3.1. 
-Stable tag: 1
+Tested up to: 3.9.1. 
+Stable tag: 2
 
 This plugin allows you to tag other registered users on your blog in a comment in order to bring them into a conversation they might otherwise be missing. 
 
